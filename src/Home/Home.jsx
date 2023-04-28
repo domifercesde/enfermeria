@@ -2,7 +2,7 @@ import "./Home.css";
 export function Home() {
   return (
     <>
-      <div id="carouselExampleCaptions" className="carousel slide">
+      <div id="carouselExampleCaptions" className="carousel slide carrusel">
         <div className="carousel-indicators">
           <button
             type="button"
@@ -29,7 +29,7 @@ export function Home() {
           <div className="carousel-item active">
             <img
               src="https://firebasestorage.googleapis.com/v0/b/enfermeria-ab241.appspot.com/o/en1.jfif?alt=media&token=d6fd6f45-fdc0-42ba-b2f6-27371a04dd2a"
-              className="d-block w-100"
+              className="d-block w-100 carrusel"
               alt="..."
             />
             <div className="carousel-caption d-none d-md-block">
@@ -44,7 +44,7 @@ export function Home() {
           <div className="carousel-item">
             <img
               src="https://firebasestorage.googleapis.com/v0/b/enfermeria-ab241.appspot.com/o/en2.jfif?alt=media&token=47e1ffbb-2271-4289-ae57-dd36696495c8"
-              className="d-block w-100"
+              className="d-block w-100 carrusel"
               alt="..."
             />
             <div className="carousel-caption d-none d-md-block">
@@ -54,8 +54,8 @@ export function Home() {
           </div>
           <div className="carousel-item">
             <img
-              src="https://firebasestorage.googleapis.com/v0/b/enfermeria-ab241.appspot.com/o/en3.jfif?alt=media&token=b5b83ab9-13f5-44c5-85b9-7fdacae797e2"
-              className="d-block w-100"
+              src="https://firebasestorage.googleapis.com/v0/b/enfermeria-ab241.appspot.com/o/en10.jfif?alt=media&token=21f989fa-dfed-4bb0-b0d9-9aee2f33938a"
+              className="d-block w-100 carrusel"
               alt="..."
             />
             <div className="carousel-caption d-none d-md-block">
@@ -95,24 +95,20 @@ export function Home() {
 
       <div className="row">
         <div className="col-md-12-md-6">
+            <h1 className="text-center">Enfermeria profesional</h1>
           <img
-            src="https://firebasestorage.googleapis.com/v0/b/enfermeria-ab241.appspot.com/o/en1.jfif?alt=media&token=d6fd6f45-fdc0-42ba-b2f6-27371a04dd2a"
+            src="https://firebasestorage.googleapis.com/v0/b/enfermeria-ab241.appspot.com/o/en7.jfif?alt=media&token=6387e4f7-e483-4664-be93-cfe3bef96e5b"
             alt="foto1"
           />
+          
           <p>
             Los profesionales de enfermería están en la línea de acción en la
             prestación de los servicios y desempeñan una función importante en
-            la atención centrada en las personas y comunidades. En muchos países
-            son líderes o actores clave en los equipos de salud
-            multiprofesionales e interdisciplinarios. Proporcionan una amplia
-            gama de los servicios a todos los niveles del sistema de salud. Hay
-            escasez de enfermeras en la Región de las Américas debido
-            principalmente a la migración de profesionales a otras regiones, a
-            las diferentes condiciones de desarrollo económico de los países,
-            las políticas de recursos humanos en salud y de enfermería, las
-            precarias condiciones de empleo y de trabajo y a la falta de
-            regulación profesional.{" "}
+            la atención centrada en las personas y comunidades.Proporcionan una amplia
+            gama de los servicios a todos los niveles del sistema de salud.{" "}
           </p>
+
+          
         </div>
       </div>
     </>
