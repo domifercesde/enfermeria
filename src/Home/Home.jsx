@@ -1,4 +1,6 @@
-import "./Home.css";
+import '../Home.css'
+import { servicio } from '../servicio/servicio';
+
 export function Home() {
   return (
     <>
@@ -61,8 +63,7 @@ export function Home() {
             <div className="carousel-caption d-none d-md-block">
               <h5>enfermeria</h5>
               <p>
-                “Una enfermera siempre nos dará esperanza; es un ángel con
-                estetoscopio”
+               
               </p>
             </div>
           </div>
@@ -96,22 +97,11 @@ export function Home() {
       <div className="row">
         <div className="col-md-12-md-6">
           <img
-            src="https://firebasestorage.googleapis.com/v0/b/enfermeria-ab241.appspot.com/o/en1.jfif?alt=media&token=d6fd6f45-fdc0-42ba-b2f6-27371a04dd2a"
+            src=""
             alt="foto1"
           />
           <p>
-            Los profesionales de enfermería están en la línea de acción en la
-            prestación de los servicios y desempeñan una función importante en
-            la atención centrada en las personas y comunidades. En muchos países
-            son líderes o actores clave en los equipos de salud
-            multiprofesionales e interdisciplinarios. Proporcionan una amplia
-            gama de los servicios a todos los niveles del sistema de salud. Hay
-            escasez de enfermeras en la Región de las Américas debido
-            principalmente a la migración de profesionales a otras regiones, a
-            las diferentes condiciones de desarrollo económico de los países,
-            las políticas de recursos humanos en salud y de enfermería, las
-            precarias condiciones de empleo y de trabajo y a la falta de
-            regulación profesional.{" "}
+            {" "}
           </p>
         </div>
       </div>

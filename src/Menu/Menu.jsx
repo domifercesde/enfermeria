@@ -15,7 +15,7 @@ export function Menu(){
                                 <Link to="/integrantes" className="nav-link">Miembros</Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/tienda" className="nav-link">Tienda</Link>
+                                <Link to="/Servicio" className="nav-link">Servicio</Link>
                             </li>
                             <li className="nav-item">
                                 <Link to="/musica" className="nav-link" tabindex="-1" aria-disabled="true">Musica</Link>
