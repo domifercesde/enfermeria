@@ -7,7 +7,11 @@ import 'bootstrap/dist/js/bootstrap.min.js'
 import { BrowserRouter } from 'react-router-dom'
 import { Menu } from './Menu/Menu'
 import { Footer } from './Footer/Footer'
+<<<<<<< HEAD
 import { Servicio } from './Servicio/Servicio'
+=======
+import { Home } from './Home/Home'
+>>>>>>> 7afb6e1ec9368e03e0721fdc429cfc2e90110add
 import { Agenda } from './Agenda/Agenda'
 
 
@@ -15,6 +19,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
     <Menu></Menu>
+    <Home/>
     <Agenda/>
     <Servicio/>
     <Footer />
