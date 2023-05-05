@@ -93,24 +93,49 @@ export function Home() {
         </button>
       </div>
 
-      <div className="row">
-        <div className="col-md-12-md-6">
-            <h1 className="text-center">Enfermeria profesional</h1>
-          <img
-            src="https://firebasestorage.googleapis.com/v0/b/enfermeria-ab241.appspot.com/o/en7.jfif?alt=media&token=6387e4f7-e483-4664-be93-cfe3bef96e5b"
-            alt="foto1"
-          />
-          
-          <p>
-            Los profesionales de enfermería están en la línea de acción en la
-            prestación de los servicios y desempeñan una función importante en
-            la atención centrada en las personas y comunidades.Proporcionan una amplia
-            gama de los servicios a todos los niveles del sistema de salud.{" "}
-          </p>
-
-          
-        </div>
-      </div>
+  
+        
+          <div className="container">
+            <div className="row">
+            <div className="col-6 col-md-6">
+              
+              <img
+                src="https://firebasestorage.googleapis.com/v0/b/enfermeria-ab241.appspot.com/o/en9.jfif?alt=media&token=70f627af-6aa1-4193-babc-b55c1c3d524e"
+                alt="foto1"
+              />
+              </div>
+              <div className="col-4 col-md-6">
+                <p>
+                  Los profesionales de enfermería están en la línea de acción en
+                  la prestación de los servicios y desempeñan una función
+                  importante en la atención centrada en las personas y
+                  comunidades.Proporcionan una amplia gama de los servicios a
+                  todos los niveles del sistema de salud.{" "}
+                </p>
+              </div>
+              
+              </div>
+              <br /> <br />
+      
+              <div className="row">
+               <div className="col-6 col-md-6">
+               <p>
+               La enfermería tradicional abarca los cuidados autónomos y en colaboración, que se prestan a las personas de todas las edades, familias, grupos y comunidades, enfermos o sanos en todos los contextos, e incluyen la de la salud, la prevención de la enfermedad, y los cuidados de los enfermos, discapacitados y personas moribundas. Las funciones esenciales de la enfermería son la defensa, el fomento de un entorno seguro, la investigación, la participación en la política de salud y en la gestión de los pacientes y los sistemas de salud, y la formación.
+                </p>
+              
+                </div> 
+                <div className="col">
+                <img
+                  src="https://firebasestorage.googleapis.com/v0/b/enfermeria-ab241.appspot.com/o/en4.jfif?alt=media&token=ab6cbf69-65af-40d4-add4-fa6c8429800a"
+                  alt="foto2"
+                />
+              
+              </div>
+              </div>
+            
+            </div>
+       
+      
     </>
   );
 }

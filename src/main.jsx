@@ -12,7 +12,7 @@ import { Agenda } from './Agenda/Agenda'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
-    <Menu></Menu>
+    <Menu/>
     <Home/>
     <Agenda/>
     <Footer />
