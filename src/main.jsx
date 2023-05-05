@@ -5,19 +5,13 @@ import 'bootstrap/dist/js/bootstrap.min.js'
 import 'bootstrap-icons/font/bootstrap-icons.css'
 
 import { BrowserRouter } from 'react-router-dom'
-import { Menu } from './Menu/Menu'
-import { Footer } from './Footer/Footer'
-import { Home } from './Home/Home'
-import { Agenda } from './Agenda/Agenda'
+import { Rutas } from './Routes/Rutas'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
-    <Menu/>
-    <Home/>
-    <Agenda/>
-    <Footer />
+    <Rutas/>
     </BrowserRouter>
 
-  </React.StrictMode>,
+  </React.StrictMode>
 )
