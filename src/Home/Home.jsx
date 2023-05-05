@@ -1,4 +1,6 @@
-import "./Home.css";
+import '../Home.css'
+import { Servicio } from '../Servicio/Servicio'
+
 export function Home() {
   return (
     <>
@@ -61,8 +63,7 @@ export function Home() {
             <div className="carousel-caption d-none d-md-block">
               <h5>enfermeria</h5>
               <p>
-                “Una enfermera siempre nos dará esperanza; es un ángel con
-                estetoscopio”
+               
               </p>
             </div>
           </div>
@@ -92,6 +93,8 @@ export function Home() {
           <span className="visually-hidden">siguiente</span>
         </button>
       </div>
+
+
 
   
         
@@ -136,6 +139,7 @@ export function Home() {
             </div>
        
       
+
     </>
   );
 }

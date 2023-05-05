@@ -13,11 +13,12 @@ export function Menu(){
                                 <Link to="/" className="nav-link active" aria-current="page">Inicio</Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/integrantes" className="nav-link">Formulario</Link>
+                                <Link to="/Formulario" className="nav-link">Formulario</Link>
                             </li>                            
                             <li className="nav-item">
-                                <Link to="/musica" className="nav-link" tabindex="-1" aria-disabled="true">Servicios</Link>
+                                <Link to="/Servicio" className="nav-link">Servicio</Link>
                             </li>
+                          
                         </ul>
                     </div>
                 </div>
