@@ -1,5 +1,5 @@
-import '../Home.css'
-import { Servicio } from '../Servicio/Servicio'
+import './Home.css'
+
 
 export function Home() {
   return (

@@ -16,7 +16,7 @@ export function Menu(){
                                 <Link to="/Formulario" className="nav-link">Formulario</Link>
                             </li>                            
                             <li className="nav-item">
-                                <Link to="/Servicio" className="nav-link">Servicio</Link>
+                                <Link to="/servicios" className="nav-link">Servicio</Link>
                             </li>
                           
                         </ul>
