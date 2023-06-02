@@ -1,9 +1,33 @@
 import './Home.css'
+import { Carga } from '../Carga/Carga';
+import { useState,useEffect } from 'react';
 
 
 export function Home() {
+  const[estadodecarga,setEstadoCarga]=useState(true)
+    const[tiempoCarga,setTiempoCarga]=useState(0)
+
+    useEffect(function(){
+        tiempoCarga>0?setEstadoCarga(false):setEstadoCarga(true)
+      
+    },[tiempoCarga])
+
+    setTimeout(function(){
+        setTiempoCarga(1)
+    },[5000])
+
+    if(estadodecarga){
+
+        return(
+            <>
+            <br /><br /><br />
+            <Carga/>
+            </>
+        )
+    }else{
   return (
     <>
+
       <div id="carouselExampleCaptions" className="carousel slide carrusel">
         <div className="carousel-indicators">
           <button
@@ -142,4 +166,6 @@ export function Home() {
 
     </>
   );
+
+}
 }
