@@ -6,9 +6,9 @@ export function Carga(){
         <div className="container fondo">
             <div className="row justify-content-center">
                 <div className="col-12 col-md-5 text-center text-white">
-                    <h2>BIENVENIDO</h2>
-                    <img src="../../src/assets/carga.gif" alt="gif" className="mx-auto d-block img-fluid" />
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam excepturi doloribus sequi dolores consequuntur vero inventore, laboriosam unde doloremque adipisci perspiciatis, nemo iusto facilis ad facere, id esse velit earum commodi quo distinctio? Praesentium reiciendis laboriosam voluptates! Amet enim molestiae, numquam possimus ipsa suscipit, repudiandae sint tempore quo exercitationem dolores.</p>
+                    {/* <h2>BIENVENIDO</h2> */}
+                    <img src="https://firebasestorage.googleapis.com/v0/b/proyecto-scrum-momento-ll.appspot.com/o/gif%20ambulancia.gif?alt=media&token=96fcf4f8-f40a-41b7-98a2-6f6041a58f4d" alt="gif" className="mx-auto d-block img-fluid" />
+                    <p>Servicio de Primera Calidad Garantizado</p>
                 </div>
             </div>
         </div>

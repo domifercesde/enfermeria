@@ -11,9 +11,11 @@ import { Rutas } from './Routes/Rutas'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    <div style={{backgroundColor:'#fce6fc'}}>
     <BrowserRouter>
     <Rutas/>
     </BrowserRouter>
+    </div>
 
   </React.StrictMode>
 )

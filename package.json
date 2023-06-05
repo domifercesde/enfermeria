@@ -15,8 +15,10 @@
     "bootstrap-icons": "^1.10.5",
     "react": "^18.2.0",
     "react-bootstrap-icons": "^1.10.3",
+    "react-datepicker": "^4.12.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.10.0",
+    "sweetalert2": "^11.7.10",
     "wow.js": "^1.2.2"
   },
   "devDependencies": {

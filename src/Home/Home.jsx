@@ -54,41 +54,35 @@ export function Home() {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img
-              src="https://firebasestorage.googleapis.com/v0/b/enfermeria-ab241.appspot.com/o/en1.jfif?alt=media&token=d6fd6f45-fdc0-42ba-b2f6-27371a04dd2a"
+            style={{height:'100vh', width: '50vh'}}
+              src="https://firebasestorage.googleapis.com/v0/b/proyecto-scrum-momento-ll.appspot.com/o/img3%20nurse.png?alt=media&token=4db749da-2707-47de-b532-e93d1e9236a0"
               className="d-block w-100 carrusel"
               alt="..."
             />
             <div className="carousel-caption d-none d-md-block">
-              <h5>enfermeria</h5>
-              <p>
-                “La enfermería es como una manía, una fiebre en la sangre, una
-                enfermedad incurable que una vez contraída no se puede curar. Si
-                no fuera así, no habría enfermeros”
-              </p>
+            
             </div>
           </div>
           <div className="carousel-item">
             <img
-              src="https://firebasestorage.googleapis.com/v0/b/enfermeria-ab241.appspot.com/o/en2.jfif?alt=media&token=47e1ffbb-2271-4289-ae57-dd36696495c8"
+            style={{height:'100vh', width: '50vh'}}
+              src="https://firebasestorage.googleapis.com/v0/b/proyecto-scrum-momento-ll.appspot.com/o/banner2.jpg?alt=media&token=ffe285aa-58b2-4ad4-b958-f6e12b3af8f8"
               className="d-block w-100 carrusel"
               alt="..."
             />
             <div className="carousel-caption d-none d-md-block">
-              <h5>enfermeria</h5>
-              <p>“Las enfermeras son ángeles con zapatos cómodos”</p>
+              
             </div>
           </div>
           <div className="carousel-item">
             <img
-              src="https://firebasestorage.googleapis.com/v0/b/enfermeria-ab241.appspot.com/o/en10.jfif?alt=media&token=21f989fa-dfed-4bb0-b0d9-9aee2f33938a"
+             style={{height:'100vh', width: '50vh'}}
+              src="https://firebasestorage.googleapis.com/v0/b/proyecto-scrum-momento-ll.appspot.com/o/banner3.jpg?alt=media&token=0e577ec2-03ff-4ae2-8b45-585f029d404b"
               className="d-block w-100 carrusel"
               alt="..."
             />
             <div className="carousel-caption d-none d-md-block">
-              <h5>enfermeria</h5>
-              <p>
-               
-              </p>
+              
             </div>
           </div>
         </div>
@@ -127,7 +121,8 @@ export function Home() {
             <div className="col-6 col-md-6">
               
               <img
-                src="https://firebasestorage.googleapis.com/v0/b/enfermeria-ab241.appspot.com/o/en9.jfif?alt=media&token=70f627af-6aa1-4193-babc-b55c1c3d524e"
+               style={{height:'50vh', width: '60vh',marginLeft: '10vh'}}
+                src="https://firebasestorage.googleapis.com/v0/b/proyecto-scrum-momento-ll.appspot.com/o/nurse%20img1.jpg?alt=media&token=fc62871d-c188-446c-a0c3-9fa76f94bd30"
                 alt="foto1"
               />
               </div>
@@ -153,7 +148,8 @@ export function Home() {
                 </div> 
                 <div className="col">
                 <img
-                  src="https://firebasestorage.googleapis.com/v0/b/enfermeria-ab241.appspot.com/o/en4.jfif?alt=media&token=ab6cbf69-65af-40d4-add4-fa6c8429800a"
+                style={{height:'50vh', width: '60vh',marginLeft: '10vh'}}
+                  src="https://firebasestorage.googleapis.com/v0/b/proyecto-scrum-momento-ll.appspot.com/o/nurse%20img2.jpg?alt=media&token=4108c1d4-7e43-44ab-a47b-0411d73cd46c"
                   alt="foto2"
                 />
               
